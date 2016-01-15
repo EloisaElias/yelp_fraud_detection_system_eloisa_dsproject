@@ -29,7 +29,7 @@ Companies have been particularly aggressive about fighting this situation.
 
 ####Project presentation
 
-This project,  I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. We cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identied as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html)  for detecting fake online reviews using aws and python machine learning tools.
+In this project,  I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. We cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identied as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html)  for detecting fake online reviews using aws and python machine learning tools.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/01_project_presentation.png)
