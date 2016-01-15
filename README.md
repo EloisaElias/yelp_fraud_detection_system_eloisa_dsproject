@@ -41,7 +41,7 @@ For the purpose of this project we obtain as honest dataset the the  Yelp  Chall
 
 The yelp academic challenge dataset that we have used in our work consists of 35k reviews that are considered genuine reviews. 
 
-Fake  reviews were are challenge, for the porpuse of this project, the director of data science at Yelp was contacted for any indication is how to obtaing the labels and the best recommendation was to review yelp non recommended site. Fake reviews are  crawled  from  yelp.com  not  recommended  review  section.  These  reviews  are  put  under  not 
+Fake  reviews were a challenge, for the porpuse of this project, the director of data science at Yelp was contacted for any indication is how to obtaing the labels and the best recommendation was to review yelp non recommended site. Fake reviews are  crawled  from  yelp.com  not  recommended  review  section.  These  reviews  are  put  under  not 
 recommended review section because these are classified as fake/ suspicious reviews. Yelps runs all its review through an anti-fraud algorithm, and is used in yelp to filter these types of deceptive reviews. The number of suspicious reviews extracted are 35k.
 
 Text  preprocessing  is  develop in order to remove all unwanted columns and obtain the reviews in a clean and organized manner.
