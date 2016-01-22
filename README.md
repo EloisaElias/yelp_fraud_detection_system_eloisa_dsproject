@@ -77,6 +77,8 @@ In process_
 
 This project was developed with basic tools and in a two weeks timeline and focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
 
+Including a new dataset - web scraping yelp reviews directly from platform Yelp.com.
+
 #### Further Work - Project stage_3
 
 In stage_3 the vision of this project is to develop a data processing model that detects fake/fraudulent reviews in two sections near real-time processing for immediate graph detection performance of the model and a batch processiong where i would like to apply more training and bigger and better data to the model.
