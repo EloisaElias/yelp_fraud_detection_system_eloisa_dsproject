@@ -16,7 +16,7 @@
 
 Building and maintaining trust is fundamentaly important for an online company.
 
-In E-commerce, filtering opinion spam is vital.
+In E-commerce, detecting and filtering fraud reviews is important in order to earn the trust of the customers(users).
 
 But for $5, you could get for your business 200 Facebook fans, or 6,000 Twitter followers, or an online review.
 
