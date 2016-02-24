@@ -27,7 +27,7 @@ Companies have been particularly aggressive about fighting fraudulent reviews.
 
 ####Project presentation
 
-In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. We cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
+In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. I cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/01_project_presentation.png)
@@ -35,9 +35,9 @@ In this project, I investigate through machine learning the extent and patterns 
  
 #### Data Source
  
-For the purpose of this project the Yelp Challenge Dataset is considered genuine reviews. Consist of 35k reviews that include restaurants data from U.S.: Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, and Madison.
+For the purpose of this project the Yelp Challenge Dataset is considered as genuine reviews. Consist of 35k reviews that include restaurants data from U.S.: Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, and Madison.
 
-Fake reviews were a challenge, for the purpose of this project, with the help of Jason fennell, the Director of Data Science at Yelp; I have determined that the non-recommended reviews are the most readily available source of label for questionable reviews. Fraudulent reviews are crawled from yelp.com not recommended review section.  These reviews are put under not recommended review section because these are classified as fake/ suspicious reviews. Yelp runs all its review through an anti-fraud algorithm, and is used in yelp to filter these types of deceptive reviews. The number of suspicious reviews extracted is 35k.
+Obtaining labels as fake reviews has been a challenge. For the purpose of this project, with the help of Jason fennell, the Director of Data Science at Yelp; I have determined that the non-recommended reviews are the most readily available source of label for questionable reviews. Labels considered fraudulent reviews were crawled from yelp.com not recommended review section.  These reviews are put under not recommended review section because these are classified as fake / suspicious reviews. Yelp runs all its review through an anti-fraud algorithm, and is used in yelp to filter these types of deceptive reviews. The number of suspicious reviews extracted is 35k.
 
 Implementing text preprocessing in order to obtain the reviews data frames in a clean and organized manner.
 
