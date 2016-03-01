@@ -27,7 +27,7 @@ Companies have been particularly aggressive about fighting fraudulent reviews.
 
 ####Project presentation
 
-In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. I cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
+In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. I cannot directly observe which reviews are fake, I focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/01_project_presentation.png)
@@ -72,13 +72,13 @@ I trained model_2 with data obtained from the results of model_1(the Naïve Baye
 
 #### Results
 
-The detection accuracy percentage varies with different sets of test reviews, we have used 5 fold cross validation technique by considering folds of trained dataset and test dataset in the ratio of 75:25.  Test frequency accuracy obtained for n-gram presence and review lengths.
+The detection accuracy percentage varies with different sets of test reviews, I have used 5 fold cross validation technique by considering folds of trained dataset and test dataset in the ratio of 75:25.  Test frequency accuracy obtained for n-gram presence and review lengths.
 
 #### Further Work - Project stage_2
 
 In process_
 
-This project was developed with basic tools and in a two weeks timeline and focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
+This project was developed with basic tools and within a two weeks timeline. I focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
 
 Including a new dataset - web scraping yelp reviews directly from platform Yelp.com.
 
