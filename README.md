@@ -78,7 +78,7 @@ The detection accuracy percentage varies with different sets of test reviews, I 
 
 In process_
 
-This project was developed with basic tools and within a two weeks timeline. I focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
+This project was developed using basic tools and within a two weeks timeline. I focused in how to detect fake reviews using supervised learning with linguistic features only. For stage_2 the same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
 
 Including a new dataset - web scraping yelp reviews directly from platform Yelp.com.
 
