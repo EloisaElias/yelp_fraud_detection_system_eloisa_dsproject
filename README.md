@@ -84,7 +84,7 @@ Including a new dataset - web scraping yelp reviews directly from platform Yelp.
 
 #### Further Work - Project stage_3
 
-In stage_3 the vision of this project is to develop a data processing model that detects fake/fraudulent reviews in two sections near real-time processing for immediate graph detection performance of the model and a processing batch where I would like to apply more training and bigger and better data to the model.
+The purpose of stage_3 is to develop a data processing model that detects fake/fraudulent reviews in two sections near real-time processing for immediate graph performance of the model and a processing batch. Using this architecture, I would like to apply more training and bigger and better data to the model.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/05_yelp_lambda_architecture.png)
