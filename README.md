@@ -5,10 +5,6 @@
 ###Eloisa Tran - Data Scientist
 ####Seattle - Galvanize Student
 
-#### Q1  - 2016 (stage_1)
-#### Q2 - 2016 (stage_2)
-#### Q3 - 2016 (stage_3)
-
 ###Description
 
 ***Public opinion in this country is everything***
