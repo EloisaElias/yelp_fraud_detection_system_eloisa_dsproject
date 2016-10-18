@@ -4,6 +4,7 @@
 
 ###Eloisa Tran - Data Scientist
 ####Seattle - Galvanize Student
+####Oct 2015
 
 ###Description
 
@@ -23,7 +24,7 @@ Companies have been particularly aggressive about fighting fraudulent reviews.
 
 ####Project presentation
 
-In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. I cannot directly observe which reviews are fake, I focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
+In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. We cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/01_project_presentation.png)
@@ -31,9 +32,9 @@ In this project, I investigate through machine learning the extent and patterns 
  
 #### Data Source
  
-For the purpose of this project the Yelp Challenge Dataset is considered as genuine reviews. Consist of 35k reviews that include restaurants data from U.S.: Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, and Madison.
+For the purpose of this project the Yelp Challenge Dataset is considered genuine reviews. Consist of 35k reviews that include restaurants data from U.S.: Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, and Madison.
 
-Obtaining labels as fake reviews has been a challenge. For the purpose of this project, with the help of Jason fennell, the Director of Data Science at Yelp; I have determined that the non-recommended reviews are the most readily available source of label for questionable reviews. Labels considered fraudulent reviews were crawled from yelp.com not recommended review section.  These reviews are put under not recommended review section because these are classified as fake / suspicious reviews. Yelp runs all its review through an anti-fraud algorithm, and is used in yelp to filter these types of deceptive reviews. The number of suspicious reviews extracted is 35k.
+Fake reviews were a challenge, for the purpose of this project, with the help of Jason fennell, the Director of Data Science at Yelp; I have determined that the non-recommended reviews are the most readily available source of label for questionable reviews. Fraudulent reviews are crawled from yelp.com not recommended review section.  These reviews are put under not recommended review section because these are classified as fake/ suspicious reviews. Yelp runs all its review through an anti-fraud algorithm, and is used in yelp to filter these types of deceptive reviews. The number of suspicious reviews extracted is 35k.
 
 Implementing text preprocessing in order to obtain the reviews data frames in a clean and organized manner.
 
@@ -68,19 +69,19 @@ I trained model_2 with data obtained from the results of model_1(the Naïve Baye
 
 #### Results
 
-The detection accuracy percentage varies with different sets of test reviews, I have used 5 fold cross validation technique by considering folds of trained dataset and test dataset in the ratio of 75:25.  Test frequency accuracy obtained for n-gram presence and review lengths.
+The detection accuracy percentage varies with different sets of test reviews, we have used 5 fold cross validation technique by considering folds of trained dataset and test dataset in the ratio of 75:25.  Test frequency accuracy obtained for n-gram presence and review lengths.
 
 #### Further Work - Project stage_2
 
 In process_
 
-This project was developed using basic tools and within a two weeks timeline. I focused in how to detect fake reviews using supervised learning with linguistic features only. For stage_2 the same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
+This project was developed with basic tools and in a two weeks timeline and focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
 
 Including a new dataset - web scraping yelp reviews directly from platform Yelp.com.
 
 #### Further Work - Project stage_3
 
-The purpose of stage_3 is to develop a data processing model that detects fake/fraudulent reviews in two sections near real-time processing for immediate graph performance of the model and a processing batch. Using this architecture, I would like to apply more training and bigger and better data to the model.
+In stage_3 the vision of this project is to develop a data processing model that detects fake/fraudulent reviews in two sections near real-time processing for immediate graph detection performance of the model and a processing batch where I would like to apply more training and bigger and better data to the model.
 
 
 ![AWS Lambda architecture](https://s3-us-west-2.amazonaws.com/fake-reviews-project/05_yelp_lambda_architecture.png)
