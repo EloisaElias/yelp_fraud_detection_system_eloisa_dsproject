@@ -1,13 +1,13 @@
-# yelp_fraud_detection_system_eloisa_dsproject
+
 
 ## Detecting fake reviews in Yelp using Spark 
 
-###Eloisa Tran - Data Scientist
+### Eloisa Tran - Data Scientist
 
-####Seattle - Galvanize Student
-####Oct 2015
+#### Seattle - Galvanize Student
+#### Oct 2015
 
-###Description
+### Description
 
 ***Public opinion in this country is everything***
 ***-Abraham Lincoln***
