@@ -3,6 +3,7 @@
 ## Detecting fake reviews in Yelp using Spark 
 
 ###Eloisa Tran - Data Scientist
+
 ####Seattle - Galvanize Student
 ####Oct 2015
 
@@ -72,8 +73,6 @@ I trained model_2 with data obtained from the results of model_1(the Naïve Baye
 The detection accuracy percentage varies with different sets of test reviews, we have used 5 fold cross validation technique by considering folds of trained dataset and test dataset in the ratio of 75:25.  Test frequency accuracy obtained for n-gram presence and review lengths.
 
 #### Further Work - Project stage_2
-
-In process_
 
 This project was developed with basic tools and in a two weeks timeline and focus in how to detect fake reviews using supervised learning with linguistic features only. The same model can also be implemented with a combination of behavioral and linguistic features by using supervised, unsupervised or semi-supervised learning techniques. 
 
