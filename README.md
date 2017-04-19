@@ -23,7 +23,7 @@ Companies have been particularly aggressive about fighting fraudulent reviews.
 * [2015 Harvard study identified 16% of reviews as fake.](http://officialblog.yelp.com/2013/09/fake-reviews-on-yelp-dont-worry-weve-got-your-back.html)
 
 
-####Project presentation
+#### Project presentation
 
 In this project, I investigate through machine learning the extent and patterns of review fraud on the popular consumer review platform Yelp.com. We cannot directly observe which reviews are fake, we focus on reviews that Yelp's algorithmic indicator has identified as fraudulent.  Using this proxy, I present my project replicating one of [the best models](http://www.bloomberg.com/bw/magazine/a-lie-detector-test-for-online-reviewers-09292011.html) for detecting fake online reviews using AWS and python machine learning tools.
 
